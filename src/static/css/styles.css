@@ -6,7 +6,7 @@ body {
 
 .item {
     background-color: lightblue;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
@@ -15,7 +15,8 @@ body {
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px  rgba(0,0,0,0.2);
 }
 
 .item.completed {
@@ -34,6 +35,10 @@ body {
     padding-left: 0;
 }
 
+
 button:focus {
     border: 1px solid #333;
+}
+.remove button:hover {
+	background-color: #f44242;
 }
