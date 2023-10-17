@@ -42,3 +42,10 @@ button:focus {
 .remove button:hover {
 	background-color: #f44242;
 }
+.center-image-container{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
